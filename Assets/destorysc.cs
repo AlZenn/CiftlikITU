@@ -31,6 +31,8 @@ public class destorysc : MonoBehaviour
     void Update()
     {
         ScoreText.text = "Score: " + score.ToString();
+
+        
     }
 
     public void startGame()
