@@ -70,6 +70,9 @@ public class destorysc : MonoBehaviour
 
     public void ResetGame()
     {
-        SceneManager.LoadScene(0);
+       // SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
+        start.SetActive(false);
+        score = 0;
     }
 }

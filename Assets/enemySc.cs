@@ -19,6 +19,11 @@ public class enemySc : MonoBehaviour
 
     }
 
+    public void zamansifirla()
+    {
+        Timevalue = 10f;
+    }
+
     private void endGame()
     {
         Time.timeScale = 0f;
